@@ -7,8 +7,9 @@ class Farmacéutico:
         self.nombreF = None
 
     def buscarMedFarmaciaExterna(self, ):
-        pass
+        print("Buscando medicamento en el sistema")
 
     def venderMedicamento(self, ):
-        pass
+        print("He vendido medicamentos")
+
 
