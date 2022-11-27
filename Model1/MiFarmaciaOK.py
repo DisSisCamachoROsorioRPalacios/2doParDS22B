@@ -1,15 +1,17 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-class MiFarmaciaOK:
-    def __init__(self):
+class MiFarmaciaOK(object):
+    
+    def __init__(self,):
+        
         self.idFarmacia = None
         self.nombre = None
         self.ubicacion = None
 
-    def buscarMedicamento(self, ):
-        pass
+    def buscarMedicamento(self,medicamento ):
+        print("Se busva en la BD informacion del medicamento")
 
     def mostrarInfo(self, ):
-        pass
+        print("Se visualiza informacion clave")
 
